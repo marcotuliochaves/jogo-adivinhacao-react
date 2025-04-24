@@ -1,0 +1,142 @@
+.game-over-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1e293b;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #f8fafc;
+  text-align: center;
+}
+
+.game-over-container h1 {
+  color: #f43f5e;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.score-section {
+  margin-bottom: 2rem;
+}
+
+.score-section h2 {
+  font-size: 1.8rem;
+  color: #e2e8f0;
+}
+
+.highlight {
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.rank-message {
+  color: #86efac;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.leaderboard {
+  background-color: #334155;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.leaderboard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #fbbf24;
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ranking-list li {
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr 2fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  background-color: #475569;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.current-player {
+  background-color: #4f46e5 !important;
+  font-weight: bold;
+  border-left: 4px solid #fbbf24;
+}
+
+.rank {
+  font-weight: bold;
+  color: #fbbf24;
+}
+
+.name {
+  text-align: left;
+  color: #e2e8f0;
+}
+
+.score {
+  font-weight: bold;
+  color: #86efac;
+}
+
+.word {
+  font-style: italic;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+}
+
+.date {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.no-scores {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.retry-button {
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.retry-button:hover {
+  background-color: #e11d48;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ranking-list li {
+    grid-template-columns: 40px 1fr 1fr;
+    grid-template-areas:
+      "rank name score"
+      ". word date";
+    gap: 0.5rem;
+  }
+
+  .word {
+    grid-area: word;
+  }
+
+  .date {
+    grid-area: date;
+    text-align: right;
+  }
+}
