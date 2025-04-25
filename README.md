@@ -25,4 +25,4 @@ Um jogo simples de adivinhar palavras desenvolvido com React, onde o jogador tem
 2. Novos níveis de dificuldade
 3. Modo Contra-Relógio
 4. Modo Palavras Cruzadas
-
+5. Integrar com Firebase pra salvar ranking online
