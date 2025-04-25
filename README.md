@@ -5,15 +5,24 @@ Um jogo simples de adivinhar palavras desenvolvido com React, onde o jogador tem
 ## 🚀 Tecnologias utilizadas
 
 - React
+- JavaScript
+- HTML
 - CSS
 - Git e GitHub
 - Local Storage para salvar o ranking
 
 ## 🎮 Como jogar
 
-1. Ao iniciar o jogo, o jogador será solicitado a inserir um nome.
-2. O jogo vai fornecer uma dica de categoria e o jogador deverá adivinhar a palavra, seja por letra ou pela palavra inteira.
-3. A cada palavra correta, o jogador ganha pontos.
-4. O ranking é atualizado e exibido ao final do jogo.
+1. Acesse o jogo: https://jogo-adivinhacao-react-rosy.vercel.app/
+2. Ao iniciar o jogo, o jogador será solicitado a inserir um nome.
+3. O jogo vai fornecer uma dica de categoria e o jogador deverá adivinhar a palavra, seja por letra ou pela palavra inteira.
+4. A cada palavra correta, o jogador ganha pontos.
+5. O ranking é atualizado e exibido ao final do jogo.
 
+## 🗺️ Roadmap 
+
+1. LightMode/DarkMode
+2. Novos níveis de dificuldade
+3. Modo Contra-Relógio
+4. Modo Palavras Cruzadas
 
